@@ -6,4 +6,6 @@ Product Details
   <h3>{{product.name}}</h3>
   <h4>Price : {{product.price | currency}}</h4>
   <p>{{product.description}}</p>
+
+  <button (click)="addToCart(product)">Buy</button>
 </div>
